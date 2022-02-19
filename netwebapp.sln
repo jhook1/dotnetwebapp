@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netwebapp", "netwebapp\netwebapp.csproj", "{07C1D337-EDEB-4709-8F6B-FCFDF7EA134A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07C1D337-EDEB-4709-8F6B-FCFDF7EA134A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C1D337-EDEB-4709-8F6B-FCFDF7EA134A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C1D337-EDEB-4709-8F6B-FCFDF7EA134A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C1D337-EDEB-4709-8F6B-FCFDF7EA134A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B553598E-956E-4F9B-945E-2AFE12FD51BB}
+	EndGlobalSection
+EndGlobal
