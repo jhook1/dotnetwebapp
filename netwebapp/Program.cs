@@ -1,7 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using netwebapp.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+builder.Services.AddDbContext<netwebappContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("netwebappContext")));
 
 var app = builder.Build();
 
