@@ -11,7 +11,7 @@
     <a asp-page="Create">Create New</a>
 </p>
 <form>
-    <select asp-for="MovieGenre" asp-items="Model.Genres">
+    <select asp-for="MovieGenre" asp-items="Model.Genres" onchange="this.form.submit()">
         <option value="">All</option>
     </select>
     <p>
